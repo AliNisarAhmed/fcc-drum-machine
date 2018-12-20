@@ -1,0 +1,19 @@
+.drum-pad {
+  width: 10rem;
+  height: 10rem;
+  border: 1px dotted yellow;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+  color: white;
+  font-size: 3rem;
+  font-family: 'Spicy Rice', cursive;
+}
+
+
+.active {
+  background-color: yellow;
+  transform: scale(1.1);
+}

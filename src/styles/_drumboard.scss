@@ -1,0 +1,11 @@
+#drum-board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1rem;
+  justify-items: center;
+  padding: 4rem;
+
+  min-width: 20rem;
+  font-size: 1.5rem;
+}

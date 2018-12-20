@@ -1,0 +1,29 @@
+#display {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s;
+
+    & span {
+        height: 10rem;
+        margin-top: 2rem;
+        width: 100%;
+        font-size: 10rem;
+        color: white;
+        text-transform: capitalize;
+        font-family: 'Spicy Rice', cursive;
+        animation: twist 1s infinite forwards; 
+    }
+}
+
+@keyframes twist {
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
